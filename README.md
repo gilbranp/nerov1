@@ -54,8 +54,8 @@ global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Yanzz-Bot/Esceh-By-Yanz
-cd Esceh-By-Yanz
+git clone https://github.com/Yanzz-Bot/Yanz-V1
+cd Yanz-V1
 npm install
 npm update
 ```
