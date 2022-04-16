@@ -257,7 +257,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     }, {
                                          "title": "🎐 › 𐐪-『 Creator 』-𐑂",
                                          "description": "Creator Bot",
-                                         "rowId": ".owner"
+                                         "rowId": ".nowner"
                                     }, {
                                          "title": "❗ › 𐐪-『 Rules 』-𐑂",
                                          "description": "Patuhi Rules Untuk Kenyamanan Bersama",
