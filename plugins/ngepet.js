@@ -11,7 +11,7 @@ let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 ]
 const buttonMessage = {
     contentText: `\n*😴Sepertinya Anda Sudah Kecapekan Silahkan Istirahat Dulu sekitar* _${timers}_ *Untuk bisa melanjutkan Ngepet*\n`,
-    footerText: '©bykocheng', 
+    footerText: '©byYnz', 
     buttons: buttons,
     headerType: 1
 }
