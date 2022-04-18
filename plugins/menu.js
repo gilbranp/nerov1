@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let uptime = clockString(_uptime)
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'vote', 'tanpakategori', 'owner', 'gift', 'tqto']
+  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'vote', 'tanpakategori', 'owner', 'gift', 'vn']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
@@ -84,7 +84,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'jadibot': 'Jadi Bot',
     'info': 'Info',
     '': 'Tanpa Kategori',
-    'tqto': 'Tqto',
+    'vn': 'Vn',
   }
   if (teks == 'game') tags = {
     'game': 'Game'
@@ -176,8 +176,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'tanpakategori') tags = {
     '': 'Tanpa Kategori'
   }
-  if (teks == 'Tqto') tags = {
-    'tqto': 'Tqto'
+  if (teks == 'vn') tags = {
+    'vn': 'Vn'
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
@@ -370,9 +370,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "Menulis dan Membuat Logo, dll...",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "🎫 〉 『 Menu 21 』",
-                  "description": "Sticker",
-                  "rowId": ".? sticker"
+                  "title": "🎧 〉 『 Menu 21 』",
+                  "description": "Vn Imut",
+                  "rowId": ".? vn"
                 }, {
                   "title": "📥 〉 『 Menu 22 』",
                   "description": "Download Sesuatu diBot!",
