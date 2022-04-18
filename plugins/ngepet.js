@@ -11,7 +11,7 @@ let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 ]
 const buttonMessage = {
     contentText: `\n*😴Sepertinya Anda Sudah Kecapekan Silahkan Istirahat Dulu sekitar* _${timers}_ *Untuk bisa melanjutkan Ngepet*\n`,
-    footerText: '©byYnz', 
+    footerText: '©bykocheng', 
     buttons: buttons,
     headerType: 1
 }
@@ -117,3 +117,4 @@ function clockString(ms) {
   let s = Math.floor(ms / 1000) % 60
   console.log({ms,h,m,s})
   return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
+}
