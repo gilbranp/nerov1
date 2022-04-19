@@ -568,7 +568,7 @@ module.exports = {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/89a6260f0a6720240e698.jpg")
+                .setBackground("https://telegra.ph/file/fb0368243347cf3fa05b5.jpg")
                 .toAttachment()
 
               this.sendButtonImg(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), text, action === 'add' ? 'Welcome Message' : 'Leave Message', action === 'add' ? 'Welcome beban🚬' : 'Alhamdullilah Beban Out🗿',action === 'add' ? 'Welcome Beban🚬' : 'Alhamdullilah Beban Out🗿', {
@@ -664,7 +664,7 @@ global.dfail = (type, m, conn) => {
   let unreg = {
     unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Yanz.16*`
   }[type]
-  if (unreg) return conn.sendButton(m.chat, `Haii ${name} 👋 Sebelum menggunakan bot ini Harap Verify Terlebih dahulu`, watermark, 'Verify', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©Yanz💌_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/93278eaa12fd253a4fe3cc08a0b219bc.jpg')}}})
+  if (unreg) return conn.sendButton(m.chat, `Haii ${name} 👋 Sebelum Menggunakan Bot Uni Harap Daftar Dulu kak Dengan cara Pencet Button Verify Di Bawah`, watermark, 'Verify', `#daftar ${name}.15`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©Yanz💌\nJam ${time}`, itemCount: 99999, thumbnail: fs.readFileSync('./src/93278eaa12fd253a4fe3cc08a0b219bc.jpg')}}})
 }
 
 let chalk = require('chalk')
