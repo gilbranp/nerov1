@@ -1,7 +1,7 @@
 {
-  "name": "Wangsaff Bot!",
+  "name": "Ynz",
   "version": "1.5.0",
-  "description": "Official Bot Wangsaff!",
+  "description": "WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
   "directories": {
