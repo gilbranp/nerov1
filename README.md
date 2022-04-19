@@ -62,7 +62,7 @@
 
 ```bash
 git clone https://github.com/Yanzz-Bot/Yanz-V1
-cd Yanz-V1
+cd Yanzz-V1
 npm install
 npm update
 ```
