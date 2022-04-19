@@ -1,50 +1,57 @@
-<p align="center">
-<img src="https://telegra.ph/file/809410340f33f15544905.png" alt="Ynz🤸" width="200"/>
+<div align="center">
+<img src="https://telegra.ph/file/4637101da58e21976363b.jpg" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
-
-<p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Created+By+Ynz" alt="Lexxy Official" /> </a> </p>
-<p align="center">
-<a href="#"><img title="Bot Yanz" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
+<h1 align="center">Ynz</h1>
+
+<h1 align="center">Jangan lupa kasih stars & follow :)</h1>
+
+>
+>
+>
+</div>
 <p align="center">
-</p> 
+  <a href="https://github.com/Yanzz-Bot"><img title="Author" src="https://img.shields.io/badge/Author-Yanzz.svg?style=for-the-badge&logo=github" /></a>
+  <h4 align="center">
+  <a href="https://github.com/Yanz-Bot"><img title="Author" src="https://img.shields.io/badge/Author-Ynz.svg?style=for-the-badge&logo=github" /></a>
+  <h4 align="center">
+  <a
+  <a href="https://wa.me/6282186172016">SC FREE API KOK GAN >//< </a>
+</h4>
+</p>
 
----
+# Timdak Work Di Termux
 
-# Timdak work di termux!
 
-## Deploy to heroku
+# Ganti session lu di `'./RadBotZ.json'`
+
+# Run On Heroku
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Drz103/RadBot)
 
-Heroku Buildpack
-```bash 
-> heroku/nodejs 
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest 
-> https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
-```
 
-Tutorial YouTube
 
-[![YouTube](https://img.shields.io/badge/YouTube-Video-red)](https://youtu.be/DzNIL45qHaM)
+# Ambil [seesion.data.json] 
 
-Ganti session lu di `'./RadBotZ.json'`
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@zeeoneofc/SessionByZeeoneOfc?lite=1&outputonly=1#.replit)
 
-## settings 
-Edit Nomor Owner DLL `'./config.js'`
-```ts 
-OwnerNumber = ['wa.me/6282186172016']
-GithubOwner = ['https://github.com/Yanzz-Bot']
-GroupOwner = ['Link grup']
-Apikey? = Apikey kalian, tidak paham? chat saya di wangsaf!
 
-Thumbnail
-global.image = 'https://telegra.ph/file/4f4a5a3cde6a98a96da79.jpg'//change the image
-global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
-global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
-global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
-```
----------
+
+# Heroku Buildpack
+
+| BuildPack | LINK |
+|--------|--------|
+| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+| **Node.js [salin]**     | heroku/nodejs|
+
+
+# THANKS TO 
+ [`Baileys`](https://github.com/adiwajshing/Baileys)
+
+ [`Yanz`](https://wa.me/6282186172016)
+
 
 ## FOR WINDOWS/VPS/RDP USER
 
@@ -68,13 +75,23 @@ npm update
 node .
 ```
 
----------
-### Yanzz-Bot stat
+
+# Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
+
+~ Selamat Memakai~
+
+
+### Yanzz stat
 ![Ra Github stat](https://github-readme-stats.vercel.app/api?username=Yanzz-Bot&theme=midnight-purple&show_icons=true) 
 
 ![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=Yanzz-Bot&theme=monokai)
 
+![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yanzz-Bot&theme=tokyonight)
 
-# My Sosial 
-- [Group ](https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD) 
-- [Whatsapp ](https://wa.me/6282186172016)
+
+### Ynz stat
+![Ra Github stat](https://github-readme-stats.vercel.app/api?username=Yanz-Bot&theme=midnight-purple&show_icons=true) 
+
+![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=Yanz-Bot&theme=monokai)
+
+![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yanz-Bot&theme=tokyonight)
