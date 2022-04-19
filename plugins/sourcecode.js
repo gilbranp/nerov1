@@ -4,7 +4,7 @@ let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&s
 let info = `╭═[ *SCRIPT* ]═────···
 ┴
 │ *Script :* 
-│ ╰ https://github.com/Yanzz-Bot/Yanz-v1
+│ ╰ https://github.com/Yanzz-Bot/Yanzz-v1
 │ *Base :*
 │ ╰ https://github.com/nurutomo/wabot-aq
 │ *RestApi :* 
