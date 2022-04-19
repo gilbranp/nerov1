@@ -4,7 +4,7 @@ let handler = async (m, { conn, isOwner }) => {
   conn.reply(m.chat, `┌〔 Daftar Owner 〕` + `\n` + owner.map(v => isOwner ? '├ @' + v.replace(/@.+/, '') : '│ ' + conn.getName(v)).join`\n` + '\n└────', m, { contextInfo: { mentionedJid: prem } })
 }
 handler.help = ['premlist']
-handler.tags = ['owner']
+handler.tags = ['info']
 handler.command = /^(listowner|ownerlist)$/i
 
 handler.owner = true
