@@ -521,28 +521,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await(await fetch(fla + teks)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}`, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
-    res = await conn.prepareMessageFromContent(m.chat, {
-    "productMessage": {
-      "product": {
-        "productImage": image,
-        "productId": "4938174216214248",
-        "title": '✧───────···[ Menu ]···────────✧',
-        "description": `\n${wm}\n` + text,
-        "retailerId": `${week}, ${date}  |  𝙱𝚈 𝚈𝙰𝙽𝚉 - 𝙱𝙾𝚃𝚉 ‷♪`,
-        "url": '\n',
-        "descriptionCount": "999999999",
-        "productImageCount": "1",
-      },
-      "businessOwnerJid": "0@s.whatsapp.net",
-      "contextInfo": {
-        "forwardingScore": 9999,
-        "isForwarded": true
-      }
-    }
-  },
-    { quoted: fkon })
-  conn.relayWAMessage(res)
+    await conn.send2ButtonLoc(m.chat, await(await fetch(fla + teks)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}\n© 2022 By Yanz`, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
